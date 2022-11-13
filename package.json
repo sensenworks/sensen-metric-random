@@ -1,0 +1,24 @@
+{
+  "name": "sensen-metric-random",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "types": "sensen-metric-random.d.ts",
+  "private":"false",
+  "scripts": {
+    "dev":"tsc --watch",
+    "build":"tsc",
+    "build:types": "npm-dts generate -o sensen-metric-random.d.ts -f -c"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^18.7.13",
+    "typescript": "^4.8.2"
+  },
+  "dependencies": {
+    "ts-node": "^10.9.1"
+  }
+}
